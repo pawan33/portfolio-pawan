@@ -1,0 +1,28 @@
+body {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .navbar .nav-link.active {
+    color: #0d6efd !important;
+    font-weight: 600;
+  }
+  
+  #home p {
+    font-size: 1.5rem;
+    min-height: 2rem;
+  }
+  
+  i.bi {
+    transition: transform 0.3s, color 0.3s;
+  }
+  
+  i.bi:hover {
+    transform: scale(1.2);
+    color: #0d6efd;
+  }
+  
+  .progress {
+    height: 20px;
+  }
+  
